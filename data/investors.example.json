@@ -1,0 +1,36 @@
+[
+  {
+    "id": "example-vc",
+    "name": "示例投资机构",
+    "name_en": "Example VC",
+    "type": "vc",
+    "stage_preference": ["angel", "pre-a", "a"],
+    "industry_preference": ["SaaS", "企业服务", "AI"],
+    "region_preference": ["北京", "上海", "深圳"],
+    "check_size": {
+      "min": 500,
+      "max": 5000,
+      "typical": 2000
+    },
+    "investment_count": 50,
+    "notable_investments": ["项目A", "项目B", "项目C"],
+    "portfolio": [
+      {
+        "name": "项目A",
+        "industry": "企业服务",
+        "round": "A",
+        "year": 2023,
+        "status": "active"
+      }
+    ],
+    "investment_thesis": "专注早期企业服务和 AI 赛道",
+    "contact": {
+      "email": "contact@example-vc.com",
+      "phone": "+86 10 1234 5678"
+    },
+    "social_media": {
+      "website": "https://example-vc.com",
+      "linkedin": "https://linkedin.com/company/example-vc"
+    }
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "$schema": "https://openclaw.com/schemas/skill.json",
+  "name": "fa",
+  "version": "0.1.0",
+  "displayName": "FA - 投融资顾问",
+  "description": "一级市场投融资顾问 skill，提供 BP 生成、财务建模、投资人匹配、融资策略等全方位服务",
+  "author": "Your Name",
+  "homepage": "https://github.com/yourusername/openclaw-fa-skill",
+  "license": "MIT",
+  "category": "business",
+  "tags": [
+    "fa",
+    "fundraising",
+    "venture-capital",
+    "business-plan",
+    "financial-modeling",
+    "investor-matching"
+  ],
+  "main": "dist/index.js",
+  "activationEvents": [
+    "onMessage:bp",
+    "onMessage:融资",
+    "onMessage:投资人",
+    "onMessage:估值",
+    "onMessage:财务模型",
+    "onMessage:商业计划书"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "fa.generateBP",
+        "title": "生成商业计划书",
+        "description": "根据项目信息生成专业的 BP"
+      },
+      {
+        "command": "fa.buildFinancialModel",
+        "title": "构建财务模型",
+        "description": "生成三表财务预测模型"
+      },
+      {
+        "command": "fa.matchInvestors",
+        "title": "匹配投资人",
+        "description": "根据项目特点推荐合适的投资机构"
+      },
+      {
+        "command": "fa.analyzeValuation",
+        "title": "估值分析",
+        "description": "计算项目估值并提供市场对标"
+      },
+      {
+        "command": "fa.fundraisingStrategy",
+        "title": "融资策略",
+        "description": "制定融资轮次和策略建议"
+      },
+      {
+        "command": "fa.dueDiligencePrep",
+        "title": "尽调准备",
+        "description": "生成尽调材料清单和准备建议"
+      },
+      {
+        "command": "fa.industryAnalysis",
+        "title": "行业分析",
+        "description": "分析目标赛道趋势和竞争格局"
+      },
+      {
+        "command": "fa.termSheetReview",
+        "title": "Term Sheet 解读",
+        "description": "解读投资条款并提供谈判建议"
+      }
+    ],
+    "configuration": {
+      "title": "FA Skill 配置",
+      "properties": {
+        "fa.defaultCurrency": {
+          "type": "string",
+          "default": "CNY",
+          "enum": ["CNY", "USD"],
+          "description": "默认货币单位"
+        },
+        "fa.defaultLanguage": {
+          "type": "string",
+          "default": "zh-CN",
+          "enum": ["zh-CN", "en-US"],
+          "description": "默认语言"
+        },
+        "fa.investorDatabasePath": {
+          "type": "string",
+          "default": "./data/investors.json",
+          "description": "投资人数据库路径"
+        },
+        "fa.enableWebSearch": {
+          "type": "boolean",
+          "default": true,
+          "description": "是否启用网络搜索获取最新行业数据"
+        }
+      }
+    }
+  },
+  "capabilities": {
+    "conversational": true,
+    "stateful": true,
+    "multiTurn": true,
+    "fileGeneration": true,
+    "dataAnalysis": true
+  },
+  "requirements": {
+    "node": ">=22.0.0",
+    "openclaw": ">=2024.0.0"
+  }
+}

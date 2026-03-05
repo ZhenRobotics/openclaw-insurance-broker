@@ -1,0 +1,291 @@
+{
+  "$schema": "https://clawhub.ai/schema/skill.json",
+  "id": "insurance-broker",
+  "name": "AI 保险经纪人",
+  "displayName": "AI Insurance Broker",
+  "version": "0.1.0",
+  "description": "智能保险经纪人 AI Skill，完全替代传统保险经纪，提供需求分析、产品推荐、方案设计、理赔协助等全方位专业服务",
+  "longDescription": "专业的 AI 保险经纪人 Skill，为用户提供:\n\n🔍 **保险需求分析** - 多轮对话收集信息，4大风险评估，生成专业需求报告\n📦 **智能产品推荐** - 基于50+款主流产品，多维度匹配最适合的保险\n💼 **保险方案设计** - 个性化组合方案，考虑预算和保障需求\n🔎 **保单对比分析** - 横向对比不同产品，价格和性价比分析\n📋 **理赔协助指导** - 理赔流程指导，材料准备清单，常见问题解答\n💡 **保险知识解答** - 保险术语解释，投保注意事项，健康告知建议\n💰 **保费快速计算** - 在线保费估算，不同年龄保额费率对比\n📅 **保单智能管理** - 保单记录查询，续保提醒，定期检视\n\n**vs 传统保险经纪人**:\n• 💰 费用: 免费 vs 佣金20-40%\n• ⏰ 可用性: 24/7 vs 工作时间\n• ⚖️ 客观性: 客观中立 vs 受佣金影响\n• ⚡ 响应: 即时 vs 需预约\n• 📈 知识: 实时更新 vs 需培训\n\n节省成本，即时响应，客观中立，让保险变得简单、透明、可理解！\n\n**当前版本 (v0.1.0) 包含**:\n• 基础需求分析功能\n• 50+ 款保险产品数据库\n• 基本产品推荐算法\n• 保险知识问答\n\n**即将推出 (v0.2.0+)**:\n• 健康告知智能辅助\n• 理赔争议处理\n• 用户画像与记忆\n• 智能推荐算法升级\n• 产品数据自动更新",
+
+  "author": {
+    "name": "zhenstaff",
+    "email": "zhenstaff@example.com",
+    "url": "https://github.com/zhenstaff/insurance-broker"
+  },
+
+  "homepage": "https://github.com/zhenstaff/insurance-broker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhenstaff/insurance-broker.git"
+  },
+
+  "license": "MIT",
+
+  "category": "finance",
+  "tags": [
+    "insurance",
+    "finance",
+    "health",
+    "claims",
+    "insurance-broker",
+    "insurtech",
+    "保险",
+    "保险经纪",
+    "重疾险",
+    "医疗险",
+    "寿险",
+    "理赔",
+    "健康告知"
+  ],
+
+  "keywords": [
+    "保险经纪",
+    "保险顾问",
+    "AI保险",
+    "保险推荐",
+    "理赔协助",
+    "健康告知",
+    "保险方案",
+    "重疾险",
+    "医疗险",
+    "定期寿险",
+    "意外险",
+    "保费计算",
+    "保单管理",
+    "Insurance Broker",
+    "Insurance Advisor",
+    "InsurTech"
+  ],
+
+  "language": "zh-CN",
+  "supportedLanguages": ["zh-CN", "en-US"],
+
+  "icon": "🏥",
+  "color": "#10B981",
+
+  "screenshots": [],
+
+  "demo": {
+    "video": "",
+    "examples": [
+      "我想买保险，但不知道买什么",
+      "推荐适合30岁的保险产品",
+      "帮我分析保险需求",
+      "重疾险和医疗险有什么区别？",
+      "计算保费",
+      "如何理赔？"
+    ]
+  },
+
+  "features": [
+    {
+      "title": "保险需求分析",
+      "description": "多轮对话收集用户信息，分析4大风险（健康/身故/意外/财产），生成专业需求报告",
+      "icon": "🔍",
+      "status": "available"
+    },
+    {
+      "title": "智能产品推荐",
+      "description": "基于50+款主流产品数据库，多维度匹配最适合的保险",
+      "icon": "📦",
+      "status": "available"
+    },
+    {
+      "title": "保险方案设计",
+      "description": "设计个性化保险组合方案，考虑预算和保障需求",
+      "icon": "💼",
+      "status": "planned"
+    },
+    {
+      "title": "保单对比分析",
+      "description": "横向对比不同产品，保障内容和价格详细对比",
+      "icon": "🔎",
+      "status": "planned"
+    },
+    {
+      "title": "理赔协助指导",
+      "description": "理赔流程详细指导，材料准备清单，常见问题解答",
+      "icon": "📋",
+      "status": "planned"
+    },
+    {
+      "title": "保险知识解答",
+      "description": "保险术语和概念解释，投保注意事项指导",
+      "icon": "💡",
+      "status": "available"
+    },
+    {
+      "title": "保费快速计算",
+      "description": "在线保费估算，不同年龄和保额的费率对比",
+      "icon": "💰",
+      "status": "planned"
+    },
+    {
+      "title": "保单智能管理",
+      "description": "保单信息记录和查询，续保提醒，定期保单检视",
+      "icon": "📅",
+      "status": "planned"
+    },
+    {
+      "title": "健康告知辅助",
+      "description": "智能健康告知指导，疾病可保性分析（即将推出）",
+      "icon": "🏥",
+      "status": "coming-soon"
+    },
+    {
+      "title": "理赔争议处理",
+      "description": "拒赔原因分析，申诉材料准备，法律支持（即将推出）",
+      "icon": "⚖️",
+      "status": "coming-soon"
+    },
+    {
+      "title": "用户画像记忆",
+      "description": "长期记住用户偏好，个性化服务（即将推出）",
+      "icon": "👤",
+      "status": "coming-soon"
+    },
+    {
+      "title": "数据自动更新",
+      "description": "产品数据自动更新，价格变动通知（即将推出）",
+      "icon": "🔄",
+      "status": "coming-soon"
+    }
+  ],
+
+  "requirements": {
+    "openclaw": ">=2026.0.0",
+    "node": ">=22.0.0",
+    "memory": "256MB",
+    "disk": "15MB"
+  },
+
+  "pricing": {
+    "model": "free",
+    "tier": "community"
+  },
+
+  "capabilities": [
+    "conversational",
+    "multi-turn",
+    "stateful",
+    "context-aware",
+    "recommendation",
+    "data-analysis",
+    "educational"
+  ],
+
+  "channels": [
+    "whatsapp",
+    "telegram",
+    "slack",
+    "discord",
+    "wechat",
+    "all"
+  ],
+
+  "configuration": {
+    "schema": {
+      "type": "object",
+      "properties": {
+        "defaultLanguage": {
+          "type": "string",
+          "enum": ["zh-CN", "en-US"],
+          "default": "zh-CN",
+          "title": "默认语言",
+          "description": "回复的默认语言"
+        },
+        "budgetCurrency": {
+          "type": "string",
+          "enum": ["CNY", "USD"],
+          "default": "CNY",
+          "title": "预算货币",
+          "description": "保费预算的默认货币单位"
+        },
+        "enableDetailedAnalysis": {
+          "type": "boolean",
+          "default": true,
+          "title": "启用详细分析",
+          "description": "是否提供详细的需求分析报告"
+        }
+      }
+    }
+  },
+
+  "activation": {
+    "keywords": [
+      "保险",
+      "重疾险",
+      "医疗险",
+      "寿险",
+      "意外险",
+      "理赔",
+      "投保",
+      "保费",
+      "保单",
+      "健康告知"
+    ],
+    "examples": [
+      "我想买保险",
+      "推荐保险产品",
+      "分析保险需求",
+      "如何理赔",
+      "计算保费"
+    ]
+  },
+
+  "stats": {
+    "functions": 8,
+    "agents": 1,
+    "tools": 5,
+    "products": 50,
+    "dataSize": "~50KB"
+  },
+
+  "support": {
+    "documentation": "https://github.com/zhenstaff/insurance-broker#readme",
+    "issues": "https://github.com/zhenstaff/insurance-broker/issues",
+    "discord": "https://discord.gg/openclaw",
+    "email": "zhenstaff@example.com"
+  },
+
+  "changelog": "https://github.com/zhenstaff/insurance-broker/blob/main/CHANGELOG.md",
+
+  "roadmap": [
+    {
+      "version": "0.2.0",
+      "features": [
+        "健康告知智能辅助",
+        "用户画像与记忆系统",
+        "推荐算法优化"
+      ],
+      "eta": "2026-04"
+    },
+    {
+      "version": "0.3.0",
+      "features": [
+        "理赔争议处理",
+        "产品数据自动更新",
+        "保单管理增强"
+      ],
+      "eta": "2026-05"
+    },
+    {
+      "version": "1.0.0",
+      "features": [
+        "完整的13大功能",
+        "1000+产品数据库",
+        "AI推荐算法成熟"
+      ],
+      "eta": "2026-06"
+    }
+  ],
+
+  "verification": {
+    "verified": false,
+    "testedBy": [],
+    "reviews": []
+  },
+
+  "published": "2026-03-05T00:00:00Z",
+  "updated": "2026-03-05T00:00:00Z"
+}

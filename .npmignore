@@ -1,0 +1,39 @@
+# 不发布到 npm 的文件
+
+# 源代码（只发布编译后的）
+src/
+
+# 配置文件
+.eslintrc.json
+.prettierrc.json
+tsconfig.json
+
+# 文档（保留 README）
+docs/
+EXAMPLES.md
+PROJECT_SUMMARY.md
+PROJECT_COMPLETE.md
+DELIVERY.md
+CONTRIBUTING.md
+INSTALL.md
+README-PYTHON.md
+SUMMARY.md
+
+# 脚本
+scripts/
+
+# 开发文件
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# 测试
+tests/
+*.test.ts
+*.spec.ts
+
+# 临时文件
+tmp/
+temp/
+*.tmp

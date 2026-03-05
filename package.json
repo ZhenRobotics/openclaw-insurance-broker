@@ -1,0 +1,82 @@
+{
+  "name": "insurance-broker",
+  "version": "0.1.0",
+  "description": "AI Insurance Broker Skill - 智能保险经纪人，替代传统保险经纪，提供需求分析、产品推荐、理赔协助等全方位保险服务",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "insurance",
+    "insurance-broker",
+    "保险",
+    "保险经纪",
+    "理赔",
+    "健康告知",
+    "产品推荐",
+    "保险顾问",
+    "ai-insurance",
+    "insurtech"
+  ],
+  "author": {
+    "name": "OpenClaw Community",
+    "email": "community@openclaw.ai"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/insurance-broker-skill.git"
+  },
+  "homepage": "https://github.com/yourusername/insurance-broker-skill#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/insurance-broker-skill/issues"
+  },
+  "openclaw": {
+    "skill": {
+      "id": "insurance-broker",
+      "displayName": "AI 保险经纪人",
+      "description": "智能保险顾问，提供需求分析、产品推荐、理赔协助等专业服务",
+      "category": "finance",
+      "tags": [
+        "insurance",
+        "finance",
+        "health",
+        "claims"
+      ]
+    }
+  },
+  "dependencies": {
+    "zod": "^3.22.4",
+    "date-fns": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "prettier": "^3.2.4"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.0.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
