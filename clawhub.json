@@ -8,15 +8,15 @@
   "longDescription": "专业的 AI 保险经纪人 Skill，为用户提供:\n\n🔍 **保险需求分析** - 多轮对话收集信息，4大风险评估，生成专业需求报告\n📦 **智能产品推荐** - 基于50+款主流产品，多维度匹配最适合的保险\n💼 **保险方案设计** - 个性化组合方案，考虑预算和保障需求\n🔎 **保单对比分析** - 横向对比不同产品，价格和性价比分析\n📋 **理赔协助指导** - 理赔流程指导，材料准备清单，常见问题解答\n💡 **保险知识解答** - 保险术语解释，投保注意事项，健康告知建议\n💰 **保费快速计算** - 在线保费估算，不同年龄保额费率对比\n📅 **保单智能管理** - 保单记录查询，续保提醒，定期检视\n\n**vs 传统保险经纪人**:\n• 💰 费用: 免费 vs 佣金20-40%\n• ⏰ 可用性: 24/7 vs 工作时间\n• ⚖️ 客观性: 客观中立 vs 受佣金影响\n• ⚡ 响应: 即时 vs 需预约\n• 📈 知识: 实时更新 vs 需培训\n\n节省成本，即时响应，客观中立，让保险变得简单、透明、可理解！\n\n**当前版本 (v0.1.0) 包含**:\n• 基础需求分析功能\n• 50+ 款保险产品数据库\n• 基本产品推荐算法\n• 保险知识问答\n\n**即将推出 (v0.2.0+)**:\n• 健康告知智能辅助\n• 理赔争议处理\n• 用户画像与记忆\n• 智能推荐算法升级\n• 产品数据自动更新",
 
   "author": {
-    "name": "zhenstaff",
-    "email": "zhenstaff@example.com",
-    "url": "https://github.com/zhenstaff/insurance-broker"
+    "name": "ZhenRobotics",
+    "email": "contact@zhenrobotics.com",
+    "url": "https://github.com/ZhenRobotics/openclaw-insurance-broker"
   },
 
-  "homepage": "https://github.com/zhenstaff/insurance-broker",
+  "homepage": "https://github.com/ZhenRobotics/openclaw-insurance-broker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhenstaff/insurance-broker.git"
+    "url": "https://github.com/ZhenRobotics/openclaw-insurance-broker.git"
   },
 
   "license": "MIT",
@@ -242,13 +242,13 @@
   },
 
   "support": {
-    "documentation": "https://github.com/zhenstaff/insurance-broker#readme",
-    "issues": "https://github.com/zhenstaff/insurance-broker/issues",
+    "documentation": "https://github.com/ZhenRobotics/openclaw-insurance-broker#readme",
+    "issues": "https://github.com/ZhenRobotics/openclaw-insurance-broker/issues",
     "discord": "https://discord.gg/openclaw",
-    "email": "zhenstaff@example.com"
+    "email": "contact@zhenrobotics.com"
   },
 
-  "changelog": "https://github.com/zhenstaff/insurance-broker/blob/main/CHANGELOG.md",
+  "changelog": "https://github.com/ZhenRobotics/openclaw-insurance-broker/blob/main/CHANGELOG.md",
 
   "roadmap": [
     {
